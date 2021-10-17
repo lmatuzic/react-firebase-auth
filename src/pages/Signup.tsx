@@ -40,7 +40,6 @@ const Signup = () => {
 
   return (
     <>
-      <h1>Signup</h1>
       <div style={{ textAlign: "center" }}>
         <h1>Sign Up</h1>
         <form>
