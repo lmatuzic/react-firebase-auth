@@ -7,7 +7,7 @@ import { auth } from "../firebase";
 import { UserData } from "../model/user";
 
 const Signup = () => {
-  const { user, authenticated, setUser } = useContext(AuthContext);
+  const { setUser } = useContext(AuthContext);
   const [values, setValues] = useState({
     email: "",
     password: "",
