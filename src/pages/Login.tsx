@@ -61,7 +61,7 @@ const Login = () => {
         />
         <br />
         <br />
-        <button>Login</button>
+        <button onClick={login}>Login</button>
         <p>Not logged in yet?</p>
 
         <button onClick={() => history.push(SIGNUP_PAGE)}>SignUp</button>
